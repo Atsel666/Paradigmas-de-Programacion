@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html lang="es-MX">
 <head>
+    <link href="styles.css" rel="stylesheet" type="text/css">
     <title>Actividad 1</title>
 </head>
 <body>
+    <h1>Formulario</h1>
+    <img src="FING.png" alt="Logo de la Facultad de Ingenieria" class="image1"></img>
+    <img src="Okayeg.png" alt="Yo" class="image2"></img>
     
-    <form action="" method="post">
-        <input  type="text" name="name">
-        <p>Correo</p>
-        <input type="text" name="email">
-
-        <p>Mensaje</p>
-        <textarea></textarea>
+    <form action="http://3.88.130.135/paradigmas/actividad_dos.php" method="post">
+        <ul>
+        <li>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+        </li>
+        <hr>
+        <li>
+            <label for="mail">Correo:</label>
+            <input type="email" id="mail" name="mail" required>
+        </li>
+        <hr>
+        <li>
+            <label for="msg">Mensaje:</label>
+            <textarea id="msg" name="message" required></textarea>
+        </li>
+        <hr>
+        </ul>
+        
+        <li class="button">
+            <button type="submit">Envíar</button>
+        </li>
     </form>
 
 
