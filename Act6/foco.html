@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>Foko</title>
+</head> 
+
+<body>
+
+    <h1>PICALE AL FOCO Y VERAS EL CAMBIO</h1>
+
+    <img src="focoOff.png" alt="Foco apagado" id="foco" class="focoOff" onclick="switchImage();">
+
+    <script>
+        const switchImage = () => {
+            let foco = document.getElementById("foco");
+            if (foco.src.match('focoOff')){
+                foco.src = "focoOn.png";
+            }
+            else {
+                foco.src = "focoOff.png";
+            }
+        }
+        </script>
+
+    <p>Hecho por Axel RG</p>
+
+</body>
+</html>
