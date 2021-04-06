@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--Codigo totalmente hecho por Axel Rivas Guillen - a329830 - Saludos-->
+<html lang="es-MX">
+<head>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>Actividad 7</title>
+</head>
+<body>
+    <h1>Suma y resta</h1>
+
+    <label for="no1">Parametro 1: </label>
+    <input type="text" id="no1" name="no1" required>
+    <br>
+    <label for="no2">Parametro 2: </label>
+    <input type="text" id="no2" name="no2" required>
+    <br>
+    <button onclick="sum()">Sumar</button>
+    <button onclick="rest()">Restar</button>
+    <button onclick="mult()">Multiplicar</button>
+
+    <p>Resultado:</p>
+    <p id="showResult">---</p>
+
+    <p>Hecho por Axel Rivas Guillen -329830</p>
+
+    <script>
+        const sum = () =>{
+            var no1 = parseInt(document.getElementById('no1').value);
+            var no2 = parseInt(document.getElementById('no2').value);
+            var total = document.getElementById('showResult');
+            total.innerHTML = (no1 + no2);
+        }
+
+        const rest = () =>{
+            var no1 = parseInt(document.getElementById('no1').value);
+            var no2 = parseInt(document.getElementById('no2').value);
+            var total = document.getElementById('showResult');
+            total.innerHTML = (no1 - no2);
+        }
+
+        const mult = () =>{
+            var no1 = parseInt(document.getElementById('no1').value);
+            var no2 = parseInt(document.getElementById('no2').value);
+            var total = document.getElementById('showResult');
+            total.innerHTML = (no1 * no2);
+        }
+
+    </script>
+</body>
+</html>
