@@ -1,0 +1,40 @@
+<!--Codigo hecho por mi, Axel Rivas Guillen -329830-->
+<!DOCTYPE html>
+<html lang="es-MX" style="background-image: url(lemme.gif);">
+<head>
+    <title>Actividad 8</title>
+</head>
+<body>
+    <h1>Introduzca su nombre si es tan amable</h1>
+    <hr>
+    <p>Nombre:</p>
+    <input type="text" id="name">
+    <p>Sexo:</p>
+    <select id="sex">
+        <option value=1>Masculino</option>
+        <option value=2>Femenino</option>
+        <option value=3>Mucho, porfavor</option>
+    </select>
+    <button onclick="msj()">Enviar</button>
+
+    <p id="bienvenida"></p>
+
+    <script>
+        const msj = () =>{
+            let nombre = document.getElementById("name").value;
+            let sexo = document.getElementById("sex").value;
+            let mensaje = "";
+            if(sexo == 1){
+                mensaje = `Bienvenido ${nombre}`;
+            }
+            if(sexo==2){
+                mensaje = `Bienvenida ${nombre}`;
+            }
+            else{
+                mensaje=`Que cochino es usted ${nombre}`;
+            }
+            document.getElementById("bienvenida").innerHTML = mensaje;
+        }
+    </script>
+</body>
+</html>
