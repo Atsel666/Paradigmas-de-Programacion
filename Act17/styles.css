@@ -1,0 +1,21 @@
+html{
+    background-color:gray;
+}
+
+.lightbulb{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+}
+
+hr{
+    width:2cm;
+}

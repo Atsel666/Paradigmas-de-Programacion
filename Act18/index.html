@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es" style="background-color:gray">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Actividad 18</title>
+    </head>
+    <body>
+        <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Actividad 18</h1>
+        <h2 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Axel Rivas Guillen</h2>
+        <div id="app">
+            <button @click="getUsers" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: larger;">Obtener Usuarios</button>
+            <ul v-for="user in users">
+                <li style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                    {{user.name}} - {{user.company.name}}
+                </li>
+            </ul>
+        </div>
+
+        <script src="https://unpkg.com/vue@next"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
