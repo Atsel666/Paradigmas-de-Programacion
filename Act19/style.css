@@ -1,0 +1,56 @@
+.html{
+    background-color: azure;
+    background-image: url(casa.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+.secondFloor{
+    display: flex;
+    flex-direction: row;
+    left: -25px;
+    margin: 0px 0px 0px 0px;
+    position: relative;  
+    top: 295px;
+    
+}
+
+.firstFloor{
+    display: flex;
+    flex-direction: row;
+    left: -25px;
+    margin: 0px 0px 0px 0px;
+    position: relative;  
+    top: 720px;
+    
+}
+
+.lightbulb{
+    height: 130px;
+    padding-left: 600px;
+    width: 120px;
+    
+}
+
+.text{
+    display: flex;
+    font-family: "Roboto", monospace;
+    font-size: xx-large;
+    position: relative;
+    top: 1500px;
+}
+
+.credits{
+    display: flex;
+    font-family: "Roboto", monospace;
+    font-size: xx-large;
+    position: relative;
+    top: 1500px;
+}
+
+marquee{
+    display: flex;
+    font-size: xx-large;
+    position: relative;
+    top: 1400px;
+}
