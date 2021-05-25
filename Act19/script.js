@@ -1,7 +1,7 @@
 Vue.component('lightbulb1',{
     template:`
-            <section class="lightbulbs"> 
-                <img v-bind:src="kidsRoom" alt="Kid's room" class="lightbulb" id="1" @click="switchOnOff()">
+            <section class="lightbulb1"> 
+                <img v-bind:src="kidsRoom" alt="Kid's room" class="lightbulb1" id="1" @click="switchOnOff()">
             </section>
     `,
     data(){
@@ -24,46 +24,46 @@ Vue.component('lightbulb1',{
 
 Vue.component('lightbulb2',{
     template:`
-            <section class="lightbulbs"> 
-                <img v-bind:src="kidsRoom" alt="Kid's room" class="lightbulb" id="1" @click="switchOnOff()">
+            <section class="lightbulb2"> 
+                <img v-bind:src="stance" alt="Stance" class="lightbulb2" id="1" @click="switchOnOff()">
             </section>
     `,
     data(){
         return{
-            kidsRoom: 'lightbulbOff.png',
+            stance: 'lightbulbOff.png',
         }
     },
     methods:{
         switchOnOff(){        
 
-            if(this.kidsRoom=='lightbulbOff.png'){
-                this.kidsRoom='lightbulbOn.png'
+            if(this.stance=='lightbulbOff.png'){
+                this.stance='lightbulbOn.png'
             }
             else{
-                this.kidsRoom='lightbulbOff.png'
+                this.stance='lightbulbOff.png'
             }
         }
     }
 })
 Vue.component('lightbulb3',{
     template:`
-            <section class="lightbulbs"> 
-                <img v-bind:src="kidsRoom" alt="Kid's room" class="lightbulb" id="1" @click="switchOnOff()">
+            <section class="lightbulb3"> 
+                <img v-bind:src="mainRoom" alt="Main Room" class="lightbulb3" id="1" @click="switchOnOff()">
             </section>
     `,
     data(){
         return{
-            kidsRoom: 'lightbulbOff.png',
+            mainRoom: 'lightbulbOff.png',
         }
     },
     methods:{
         switchOnOff(){        
 
-            if(this.kidsRoom=='lightbulbOff.png'){
-                this.kidsRoom='lightbulbOn.png'
+            if(this.mainRoom=='lightbulbOff.png'){
+                this.mainRoom='lightbulbOn.png'
             }
             else{
-                this.kidsRoom='lightbulbOff.png'
+                this.mainRoom='lightbulbOff.png'
             }
         }
     }
@@ -71,23 +71,23 @@ Vue.component('lightbulb3',{
 
 Vue.component('lightbulb4',{
     template:`
-            <section class="lightbulbs"> 
-                <img v-bind:src="kidsRoom" alt="Kid's room" class="lightbulb" id="1" @click="switchOnOff()">
+            <section class="lightbulb4"> 
+                <img v-bind:src="TVRoom" alt="TV Room" class="lightbulb4" id="1" @click="switchOnOff()">
             </section>
     `,
     data(){
         return{
-            kidsRoom: 'lightbulbOff.png',
+            TVRoom: 'lightbulbOff.png',
         }
     },
     methods:{
         switchOnOff(){        
 
-            if(this.kidsRoom=='lightbulbOff.png'){
-                this.kidsRoom='lightbulbOn.png'
+            if(this.TVRoom=='lightbulbOff.png'){
+                this.TVRoom='lightbulbOn.png'
             }
             else{
-                this.kidsRoom='lightbulbOff.png'
+                this.TVRoom='lightbulbOff.png'
             }
         }
     }
@@ -95,23 +95,23 @@ Vue.component('lightbulb4',{
 
 Vue.component('lightbulb5',{
     template:`
-            <section class="lightbulbs"> 
-                <img v-bind:src="kidsRoom" alt="Kid's room" class="lightbulb" id="1" @click="switchOnOff()">
+            <section class="lightbulb5"> 
+                <img v-bind:src="dinningRoom" alt="Dinning Room" class="lightbulb5" id="1" @click="switchOnOff()">
             </section>
     `,
     data(){
         return{
-            kidsRoom: 'lightbulbOff.png',
+            dinningRoom: 'lightbulbOff.png',
         }
     },
     methods:{
         switchOnOff(){        
 
-            if(this.kidsRoom=='lightbulbOff.png'){
-                this.kidsRoom='lightbulbOn.png'
+            if(this.dinningRoom=='lightbulbOff.png'){
+                this.dinningRoom='lightbulbOn.png'
             }
             else{
-                this.kidsRoom='lightbulbOff.png'
+                this.dinningRoom='lightbulbOff.png'
             }
         }
     }
@@ -119,23 +119,23 @@ Vue.component('lightbulb5',{
 
 Vue.component('lightbulb6',{
     template:`
-            <section class="lightbulbs"> 
-                <img v-bind:src="kidsRoom" alt="Kid's room" class="lightbulb" id="1" @click="switchOnOff()">
+            <section class="lightbulb6"> 
+                <img v-bind:src="kitchen" alt="Kitchen" class="lightbulb6" id="1" @click="switchOnOff()">
             </section>
     `,
     data(){
         return{
-            kidsRoom: 'lightbulbOff.png',
+            kitchen: 'lightbulbOff.png',
         }
     },
     methods:{
         switchOnOff(){        
 
-            if(this.kidsRoom=='lightbulbOff.png'){
-                this.kidsRoom='lightbulbOn.png'
+            if(this.kitchen=='lightbulbOff.png'){
+                this.kitchen='lightbulbOn.png'
             }
             else{
-                this.kidsRoom='lightbulbOff.png'
+                this.kitchen='lightbulbOff.png'
             }
         }
     }

@@ -5,52 +5,102 @@
     background-size: 70%;
 }
 
-.secondFloor{
+/* .secondFloor{
     display: flex;
-    flex-direction: row;
     left: -25px;
     margin: 0px 0px 0px 0px;
-    position: relative;  
-    top: 295px;
-    
+    top: 150px;
 }
 
 .firstFloor{
     display: flex;
-    flex-direction: row;
     left: -25px;
     margin: 0px 0px 0px 0px;
-    position: relative;  
     top: 720px;
-    
+} */
+
+.lightbulb1{
+    display: inline;
+    padding: 0 0 0 0;
+    margin: 1 1 1 1;
+    position: relative;
+    left: 120px;
+    top: 74px;
+    width: 50px;
+    height: 100px;
 }
 
-.lightbulb{
-    height: 130px;
-    padding-left: 600px;
-    width: 120px;
-    
+.lightbulb2{
+    display: inline;
+    padding: 0 0 0 0;
+    margin: 1 1 1 1;
+    position: relative;
+    left: 290px;
+    top: 72px;
+    width: 50px;
+    height: 100px;
+}
+
+.lightbulb3{
+    display: inline;
+    padding: 0 0 0 0;
+    margin: 1 1 1 1;
+    position: relative;
+    left: 480px;
+    top: 67px;
+    width: 50px;
+    height: 100px;
+}
+
+.lightbulb4{
+    display: inline;
+    padding: 0 0 0 0;
+    margin: 1 1 1 1;
+    position: relative;
+    left: 120px;
+    top: 160px;
+    width: 50px;
+    height: 100px;
+}
+
+.lightbulb5{
+    display: inline;
+    padding: 0 0 0 0;
+    margin: 1 1 1 1;
+    position: relative;
+    left: 300px;
+    top: 160px;
+    width: 50px;
+    height: 100px;
+}
+
+.lightbulb6{
+    display: inline;
+    padding: 0 0 0 0;
+    margin: 1 1 1 1;
+    position: relative;
+    left: 460px;
+    top: 167px;
+    width: 50px;
+    height: 100px;
 }
 
 .text{
-    display: flex;
     font-family: "Roboto", monospace;
     font-size: xx-large;
-    position: relative;
-    top: 1500px;
+    position: fixed;
+    top: 870px;
 }
 
 .credits{
-    display: flex;
     font-family: "Roboto", monospace;
     font-size: xx-large;
-    position: relative;
-    top: 1500px;
+    position: fixed;
+    top: 900px;
 }
 
 marquee{
-    display: flex;
     font-size: xx-large;
-    position: relative;
-    top: 1400px;
+    position: fixed;
+    top: 350px;
 }
