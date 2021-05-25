@@ -5,84 +5,70 @@
     background-size: 70%;
 }
 
-/* .secondFloor{
-    display: flex;
-    left: -25px;
-    margin: 0px 0px 0px 0px;
-    top: 150px;
+.kidsRoom{
+    display: inline;
+    padding: 0 0 0 0;
+    margin: 1 1 1 1;
+    position: relative;
+    left: 220px;
+    top: 146px;
+    width: 50px;
+    height: 70px;
+}
+    
+.stance{
+    display: inline;
+    padding: 0 0 0 0;
+    margin: 1 1 1 1;
+    position: relative;
+    left: 520px;
+    top: 144px;
+    width: 50px;
+    height: 70px;
 }
 
-.firstFloor{
-    display: flex;
-    left: -25px;
-    margin: 0px 0px 0px 0px;
-    top: 720px;
-} */
+.mainRoom{
+    display: inline;
+    padding: 0 0 0 0;
+    margin: 1 1 1 1;
+    position: relative;
+    left: 900px;
+    top: 142px;
+    width: 50px;
+    height: 70px;
+}
 
-.lightbulb1{
+.TVRoom{
     display: inline;
     padding: 0 0 0 0;
     margin: 1 1 1 1;
     position: relative;
     left: 120px;
-    top: 74px;
+    top: 424px;
     width: 50px;
-    height: 100px;
+    height: 70px;
 }
 
-.lightbulb2{
+.dinningRoom{
     display: inline;
     padding: 0 0 0 0;
     margin: 1 1 1 1;
     position: relative;
-    left: 290px;
-    top: 72px;
+    left: 450px;
+    top: 425px;
     width: 50px;
-    height: 100px;
+    height: 70px;
 }
 
-.lightbulb3{
+.kitchen{
     display: inline;
     padding: 0 0 0 0;
     margin: 1 1 1 1;
     position: relative;
-    left: 480px;
-    top: 67px;
+    left: 750px;
+    top: 438px;
     width: 50px;
-    height: 100px;
-}
-
-.lightbulb4{
-    display: inline;
-    padding: 0 0 0 0;
-    margin: 1 1 1 1;
-    position: relative;
-    left: 120px;
-    top: 160px;
-    width: 50px;
-    height: 100px;
-}
-
-.lightbulb5{
-    display: inline;
-    padding: 0 0 0 0;
-    margin: 1 1 1 1;
-    position: relative;
-    left: 300px;
-    top: 160px;
-    width: 50px;
-    height: 100px;
-}
-
-.lightbulb6{
-    display: inline;
-    padding: 0 0 0 0;
-    margin: 1 1 1 1;
-    position: relative;
-    left: 460px;
-    top: 167px;
-    width: 50px;
-    height: 100px;
+    height: 70px;
 }
 
 .text{

@@ -1,8 +1,6 @@
 Vue.component('lightbulb1',{
     template:`
-            <section class="lightbulb1"> 
-                <img v-bind:src="kidsRoom" alt="Kid's room" class="lightbulb1" id="1" @click="switchOnOff()">
-            </section>
+            <img v-bind:src="kidsRoom" alt="Kid's room" class="kidsRoom" @click="switchOnOff()">
     `,
     data(){
         return{
@@ -24,9 +22,7 @@ Vue.component('lightbulb1',{
 
 Vue.component('lightbulb2',{
     template:`
-            <section class="lightbulb2"> 
-                <img v-bind:src="stance" alt="Stance" class="lightbulb2" id="1" @click="switchOnOff()">
-            </section>
+            <img v-bind:src="stance" alt="Stance" class="stance" @click="switchOnOff()">
     `,
     data(){
         return{
@@ -47,9 +43,7 @@ Vue.component('lightbulb2',{
 })
 Vue.component('lightbulb3',{
     template:`
-            <section class="lightbulb3"> 
-                <img v-bind:src="mainRoom" alt="Main Room" class="lightbulb3" id="1" @click="switchOnOff()">
-            </section>
+            <img v-bind:src="mainRoom" alt="Main Room" class="mainRoom" @click="switchOnOff()">
     `,
     data(){
         return{
@@ -71,9 +65,7 @@ Vue.component('lightbulb3',{
 
 Vue.component('lightbulb4',{
     template:`
-            <section class="lightbulb4"> 
-                <img v-bind:src="TVRoom" alt="TV Room" class="lightbulb4" id="1" @click="switchOnOff()">
-            </section>
+            <img v-bind:src="TVRoom" alt="TV Room" class="TVRoom" @click="switchOnOff()">
     `,
     data(){
         return{
@@ -95,9 +87,7 @@ Vue.component('lightbulb4',{
 
 Vue.component('lightbulb5',{
     template:`
-            <section class="lightbulb5"> 
-                <img v-bind:src="dinningRoom" alt="Dinning Room" class="lightbulb5" id="1" @click="switchOnOff()">
-            </section>
+            <img v-bind:src="dinningRoom" alt="Dinning Room" class="dinningRoom" @click="switchOnOff()">
     `,
     data(){
         return{
@@ -119,9 +109,7 @@ Vue.component('lightbulb5',{
 
 Vue.component('lightbulb6',{
     template:`
-            <section class="lightbulb6"> 
-                <img v-bind:src="kitchen" alt="Kitchen" class="lightbulb6" id="1" @click="switchOnOff()">
-            </section>
+            <img v-bind:src="kitchen" alt="Kitchen" class="kitchen" @click="switchOnOff()">
     `,
     data(){
         return{
